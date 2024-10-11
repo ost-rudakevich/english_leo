@@ -1,0 +1,44 @@
+.container {
+  @apply flex flex-col h-14 w-72 items-center gap-y-1;
+
+  span {
+    @apply text-red font-medium text-xs;
+  }
+
+  .field {
+    @apply w-full h-9 text-lg px-2 rounded-lg;
+
+    &:focus {
+      @apply border-blue border-2 outline-none;
+    }
+
+    &_success {
+      @apply border-green border-2 w-72 h-9 text-lg px-2 rounded-lg;
+    }
+
+    &_success:focus {
+      @apply border-green border-2 outline-none;
+    }
+
+    &_error {
+      @apply border-red border-2 w-72 h-9 text-lg px-2 rounded-lg;
+    }
+
+    &_error:focus {
+      @apply border-red border-2 outline-none;
+    }
+  }
+
+  .wrapper {
+    @apply flex items-center relative  w-full;
+
+    .eye {
+      @apply w-7 h-8 flex justify-center items-center bg-white 
+      left-68 cursor-pointer rounded-r-lg absolute text-dark-gray;
+
+      svg {
+        @apply w-4 h-4;
+      }
+    }
+  }
+}

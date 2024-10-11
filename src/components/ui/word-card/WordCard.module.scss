@@ -1,0 +1,36 @@
+.word-card {
+  @apply w-full h-full text-xl flex flex-col justify-start items-center
+    rounded-2xl bg-gloome border-none text-white p-4 pb-1;
+
+  .actions {
+    @apply w-full flex justify-between;
+
+    .audio {
+      svg {
+        @apply w-6 h-6;
+      }
+    }
+
+    .btn-add {
+      @apply h-7 w-7 pl-1 text-white rounded-md bg-slate-gray;
+    }
+  }
+
+  .word-container {
+    @apply h-full w-full flex flex-col justify-start items-center gap-y-3 mt-2;
+
+    .transcription,
+    .translated {
+      @apply text-base text-slate-gray;
+    }
+  }
+
+  .remark {
+    @apply w-full text-opacity-50 text-xs h-4 flex justify-end text-slate-gray;
+  }
+}
+
+.word-card:hover .word-container .transcription,
+.word-card:hover .word-container .translated {
+  @apply text-white;
+}

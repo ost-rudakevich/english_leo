@@ -1,0 +1,20 @@
+.wrapper-error {
+  @apply w-2/3 h-full flex justify-center items-center;
+
+  .error {
+    @apply flex flex-col gap-y-10 items-center w-96 h-44 bg-gloome 
+    rounded-xl py-5 border-slate-gray border-2;
+
+    .message {
+      @apply text-3xl text-white;
+    }
+
+    .error-container {
+      @apply border flex gap-x-2 items-center bg-gray rounded-xl p-2;
+
+      &:hover {
+        @apply cursor-pointer;
+      }
+    }
+  }
+}

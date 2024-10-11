@@ -1,0 +1,268 @@
+{
+  "users": [
+    {
+      "email": "max@gg.gg",
+      "password": "$2a$10$GWZJRRhqzSBiG5IWmeojS.hufG2rHfprvWb1nWTVVs0GbfwXY2BJq",
+      "username": "max",
+      "id": 1
+    },
+    {
+      "email": "ostap@gg.gg",
+      "password": "$2a$10$H4o6p.1AaeeaDH1fOi1DO.HfAE4pxiqORToz9lMCKfXEUDRb5OF5m",
+      "username": "ostap",
+      "id": 2
+    },
+    {
+      "email": "maxmax@gg.gg",
+      "password": "$2a$10$B1tPH0YkCDfCe6kkVqr7q.K0OqpnKy3Ekh6xJYTWZjnucTu9kP0I6",
+      "username": "max maxm",
+      "id": 3
+    },
+    {
+      "email": "fvjfdj@gg.gg",
+      "password": "$2a$10$OO3xjY7DTFEcAn1YKHmuZuJo6/9xMJ/m66ahsPKduZeU201e4PqZK",
+      "username": "MaxMaxMA",
+      "id": 4
+    },
+    {
+      "email": "mune@gg.gg",
+      "password": "$2a$10$6Ro3Y/Wjndz359E/fQQ/A.WOyUqMHlsf.sM42K6dqSE5LiybZyolO",
+      "username": "mune",
+      "id": 5
+    }
+  ],
+  "dictionary": [
+    {
+      "userid": 1,
+      "id": 1,
+      "dictionary": [
+        {
+          "id": 5,
+          "originalWord": "Lol",
+          "translatedWord": "Ппц!",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/lol-1-uk.mp3",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": 4,
+          "originalWord": "Car",
+          "translatedWord": "Автомобіль",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/car-uk.mp3",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": 3,
+          "originalWord": "Next",
+          "translatedWord": "Наступний",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/next-us.mp3",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": 2,
+          "originalWord": "Next",
+          "translatedWord": "Наступний",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/next-us.mp3",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": 1,
+          "originalWord": "Next",
+          "translatedWord": "Наступний",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/next-us.mp3",
+          "wordLearningProgress": 0
+        }
+      ]
+    },
+    {
+      "userid": 2,
+      "id": 2,
+      "dictionary": [
+        {
+          "id": "5NHfktDJakqGxTtiKuof4",
+          "originalWord": "Add",
+          "translatedWord": "Додавати",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/add-us.mp3",
+          "transcription": "/æd/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "if4QT7f0ykHKJTl5OpQum",
+          "originalWord": "Delete",
+          "translatedWord": "Видалити",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/delete-us.mp3",
+          "transcription": "/diˈliːt/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "KrwopKQCsL2VmdeXrDVH0",
+          "originalWord": "Mother",
+          "translatedWord": "Мама",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/mother-au.mp3",
+          "transcription": "/_ /",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "Cl363Eu8XLDvO7Pipg1Pn",
+          "originalWord": "Dad",
+          "translatedWord": "Батько",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/dad-us.mp3",
+          "transcription": "/dæd/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "t3ltYt1uPLWrb7cfbEP36",
+          "originalWord": "Driible",
+          "translatedWord": "Сухий",
+          "audioUrl": "https://phoneky.co.uk/content/mp3tones/tone/2020/sound-fx/preview/a4614ce34722190.mp3",
+          "transcription": "/_ /",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "DI75YCSFzj-7q93BRrI5P",
+          "originalWord": "Catch",
+          "translatedWord": "Спіймати",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/catch-au.mp3",
+          "transcription": "/kæt͡ʃ/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "9zlgHrv9JtVON0Iv-hdpn",
+          "originalWord": "Bus",
+          "translatedWord": "Автобус",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/bus-uk.mp3",
+          "transcription": "/bɐs/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "SD4Laxy7qzc1Ytov7WL7g",
+          "originalWord": "Car",
+          "translatedWord": "Автомобіль",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/car-uk.mp3",
+          "transcription": "/kɑː/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "yh4Muu58-_mSJN3LUf6Q8",
+          "originalWord": "Try",
+          "translatedWord": "Спробуйте",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/try-uk.mp3",
+          "transcription": "/tɹaɪ/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "8iSUMZw8-S16CClHByxkA",
+          "originalWord": "Lol",
+          "translatedWord": "Ппц!",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/lol-1-uk.mp3",
+          "transcription": "/lɒl/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "R3po-RL3Ud0PUBIZihvJZ",
+          "originalWord": "Get",
+          "translatedWord": "Одержавши",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/get-us.mp3",
+          "transcription": "/ɡɛt/",
+          "wordLearningProgress": 0
+        }
+      ]
+    },
+    {
+      "userid": 3,
+      "id": 3,
+      "dictionary": []
+    },
+    {
+      "userid": 4,
+      "id": 4,
+      "dictionary": []
+    },
+    {
+      "userid": 5,
+      "id": 5,
+      "dictionary": [
+        {
+          "id": "9w7RwnyJGeRuuTgUIjoJZ",
+          "originalWord": "Car",
+          "translatedWord": "Автомобіль",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/car-uk.mp3",
+          "transcription": "/kɑː/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "_Ap4mNx6oU7kBhkIN5k4W",
+          "originalWord": "Right",
+          "translatedWord": "Вірно",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/right-au.mp3",
+          "transcription": "/_ /",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "P23GYwjCRXFxe3rQadqcq",
+          "originalWord": "Left",
+          "translatedWord": "Лівий",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/left-1-uk.mp3",
+          "transcription": "/lɛft/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "0o093NhpUqXw3VPJGdoh5",
+          "originalWord": "York",
+          "translatedWord": "Йорк",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/york-au.mp3",
+          "transcription": "/jɔː(ɹ)k/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "WYW-M9kQOk_vjyoaJqPde",
+          "originalWord": "More",
+          "translatedWord": "Більше",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/more-uk.mp3",
+          "transcription": "/ˈmɔː/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "qmVpgogieGZtbaz43UUNe",
+          "originalWord": "Click",
+          "translatedWord": "Натисніть ",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/click-uk.mp3",
+          "transcription": "/klɪk/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "t9VVVglrCE0ZLclXydY2h",
+          "originalWord": "Yard",
+          "translatedWord": "Ярд",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/yard-us.mp3",
+          "transcription": "/jɑːd/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "ZlQXRZ0DeLG-9QsP1rXNi",
+          "originalWord": "Fork",
+          "translatedWord": "Виделка",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/fork-uk.mp3",
+          "transcription": "/fɔːk/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "yQ8DDaxLXMK_rIOUIVuNX",
+          "originalWord": "Ball",
+          "translatedWord": "М'яч",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/ball-au.mp3",
+          "transcription": "/bɔːl/",
+          "wordLearningProgress": 0
+        },
+        {
+          "id": "8wZPbcEW4G8Pm8fcTisJX",
+          "originalWord": "Throne",
+          "translatedWord": "Престол",
+          "audioUrl": "https://api.dictionaryapi.dev/media/pronunciations/en/throne-us.mp3",
+          "transcription": "[θɹəʊn]",
+          "wordLearningProgress": 0
+        }
+      ]
+    }
+  ],
+  "login": []
+}

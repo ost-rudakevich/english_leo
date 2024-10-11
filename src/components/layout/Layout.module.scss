@@ -1,0 +1,8 @@
+.layout {
+  @apply flex flex-col w-screen h-screen;
+
+  .outlet {
+    @apply flex h-full gap-x-10 bg-main-black;
+    width: 1535px;
+  }
+}

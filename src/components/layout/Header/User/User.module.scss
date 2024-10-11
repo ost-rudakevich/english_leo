@@ -1,0 +1,34 @@
+.user {
+  @apply w-auto flex items-center;
+
+  .logged {
+    @apply flex gap-x-3 items-center;
+
+    svg {
+      @apply w-12 h-12;
+    }
+
+    .info {
+      @apply flex flex-col text-3xl;
+
+      .rank {
+        @apply text-sm text-slate-gray;
+      }
+    }
+  }
+
+  .not-logged {
+    @apply flex gap-x-5;
+
+    a {
+      @apply text-white text-lg px-5 py-1 rounded-lg;
+    }
+    .login {
+      @apply bg-green;
+    }
+
+    .register {
+      @apply bg-blue;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+.container {
+  @apply flex flex-col justify-start items-center gap-y-3 h-screen 
+  bg-no-repeat bg-cover bg-top text-dark-gray;
+  background-image: url(assets/images/jungle.jpg);
+}

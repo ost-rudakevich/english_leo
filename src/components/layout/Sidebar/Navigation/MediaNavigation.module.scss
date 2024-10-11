@@ -1,0 +1,58 @@
+@media (max-width: 520px) {
+  .nav {
+    @apply flex gap-x-4;
+
+    .info {
+      @apply flex flex-col gap-y-2 min-w-fit;
+    }
+
+    .logo {
+      img {
+        @apply h-14 w-14;
+      }
+    }
+  }
+}
+
+@media (min-width: 521px) and (max-width: 768px) {
+  .nav {
+    @apply flex gap-x-8;
+
+    .info {
+      @apply flex flex-col gap-y-2 min-w-fit;
+    }
+
+    .logo {
+      img {
+        @apply h-20 w-20;
+      }
+    }
+  }
+}
+
+/* @media (min-width: 769px) and (max-width: 1279px) {
+  .nav {
+    @apply flex w-1/2 gap-x-10;
+
+    .info {
+      @apply flex gap-x-2 min-w-fit;
+    }
+
+    .logo {
+      img {
+        @apply h-24 w-24;
+      }
+    }
+  }
+} */
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1900px) {
+  .nav {
+    img {
+      @apply h-32 w-32;
+    }
+  }
+}

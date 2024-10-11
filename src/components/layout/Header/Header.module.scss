@@ -1,0 +1,18 @@
+.header {
+  @apply border-b-2 border-gloome shadow-md w-full h-1/7 flex justify-between 
+  pl-20 pr-10 py-1 text-2xl bg-main-black text-white;
+
+  .logo {
+    @apply flex items-center gap-x-5;
+
+    .h {
+      @apply text-sm text-slate-gray;
+    }
+
+    img {
+      @apply h-20 w-20;
+    }
+  }
+}
+
+@import 'MediaHeader.module';

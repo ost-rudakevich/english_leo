@@ -1,0 +1,7 @@
+.wrapper {
+  @apply text-xl text-slate-gray px-7;
+
+  .logout {
+    @apply flex justify-center items-center gap-x-2;
+  }
+}

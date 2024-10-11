@@ -1,0 +1,19 @@
+.nav {
+  @apply flex flex-col justify-center items-center h-auto w-full
+  gap-y-10 text-xl text-slate-gray;
+
+  .link {
+    @apply w-64 h-11;
+
+    a {
+      @apply flex h-full rounded-full justify-start items-center 
+      gap-x-4 px-10;
+    }
+
+    svg {
+      @apply w-7 h-7;
+    }
+  }
+}
+
+@import 'MediaNavigation.module';

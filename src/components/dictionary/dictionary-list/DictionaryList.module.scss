@@ -1,0 +1,43 @@
+.dictionary-list {
+  @apply h-52 bg-black-list border-t-2 border-b-2 border-slate-gray w-full flex justify-start items-center 
+  gap-y-4 gap-x-3 flex-wrap py-4 px-3 rounded-2xl overflow-auto;
+
+  &::-webkit-scrollbar {
+    @apply w-3;
+    scroll-behavior: smooth;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    box-shadow: inset 3px 0 0 0 white;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply rounded-full my-4;
+  }
+
+  & > div {
+    @apply w-56 h-44;
+  }
+
+  .empty {
+    @apply flex w-auto flex-col justify-center items-center ml-80 
+    rounded-3xl px-10;
+
+    svg {
+      @apply w-20 h-20 text-white;
+    }
+
+    .card {
+      @apply text-xl flex flex-col justify-center items-center h-10
+      rounded-2xl text-white;
+
+      p {
+        @apply text-3xl;
+      }
+
+      span {
+        @apply text-base text-slate-gray;
+      }
+    }
+  }
+}

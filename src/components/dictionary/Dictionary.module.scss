@@ -1,0 +1,33 @@
+.dictionary-wrapper {
+  @apply w-2/3 flex flex-col py-10 px-6 justify-start items-center gap-y-10;
+
+  .spinner {
+    @apply h-full flex justify-center items-center;
+  }
+
+  .field {
+    @apply w-full flex justify-center;
+
+    input {
+      @apply w-409 h-12 rounded-s-lg px-3 text-lg bg-main-black 
+      border border-slate-gray text-white;
+
+      &:focus {
+        @apply border-blue border-2 outline-none;
+      }
+    }
+
+    .search {
+      @apply h-12 w-10 bg-blue text-white 
+      flex justify-center items-center rounded-e-lg;
+
+      svg {
+        @apply h-7 w-7;
+      }
+    }
+  }
+
+  .dictionary {
+    @apply bg-white w-full h-80;
+  }
+}

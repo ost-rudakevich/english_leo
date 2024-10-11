@@ -1,0 +1,26 @@
+.card {
+  /* 450 64 */
+  @apply w-96 h-48 flex justify-center items-start;
+
+  .fetch {
+    @apply w-full flex items-center p-5;
+
+    div {
+      @apply w-full rounded-xl bg-white flex items-center;
+    }
+  }
+
+  .alert {
+    @apply h-full;
+
+    div {
+      @apply h-full px-4 text-xl rounded-2xl flex flex-col justify-center items-center m-0;
+    }
+
+    svg {
+      @apply h-7 w-7;
+    }
+  }
+}
+
+/* @import 'MediaWTranslatorCard.module'; */

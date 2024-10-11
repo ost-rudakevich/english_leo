@@ -1,0 +1,19 @@
+.form {
+  @apply w-2/6 flex flex-col items-center gap-y-1.5 mt-5;
+
+  .title {
+    @apply text-3xl text-center mb-4;
+  }
+
+  a {
+    @apply text-white h-5 text-xs bg-blue px-2 py-0.5 rounded-lg;
+  }
+
+  .login {
+    @apply w-72 h-12 flex justify-between;
+  }
+}
+
+.err {
+  @apply bg-red text-white text-base p-2 rounded-lg text-start;
+}
